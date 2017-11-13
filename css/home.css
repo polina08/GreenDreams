@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Playball');
+
+html,body{height:100%;margin:0;}
+*{box-sizing:border-box;margin:0;padding:0;border:0;}
+header{height:15%;background-image:url("../img/flowers2.jpg");
+display:flex;justify-content:center;align-items:center;}
+h1{color:#808000;font-size:55px;font-family: 'Playball', cursive;}
+
+nav{height:3.5%;background-color:#d6ebad;
+display:flex;align-items:center;justify-content:space-around;}
+
+nav a{width:15%;text-decoration:none;color:#b03636;}
+nav a:hover{color:#ffa500;}
+
+section{height:78%;background-image:url("../img/wood.jpg");
+background-size:100% 100%;}
+
+ aside a{height:24%;width:50%;max-width:250px;text-decoration:none;
+ margin:2px;border:solid #b03636;}
+ aside a:hover{opacity:.7;}
+aside{height:100%;width:70%;margin:auto;display:flex;flex-direction:column;
+align-items:center;justify-content:center;}
+div{height:100%;width:100%;background-size:100% 100%;
+background-repeat:no-repeat;display:flex;align-items:center;justify-content:center;}
+
+#img4soup{background-image:url("../img/soup.jpg");}
+#img4entr{background-image:url("../img/entr.jpg");}
+#img4dsrt{background-image:url("../img/dsrt.jpg");}
+#img4drink{background-image:url("../img/drink.jpg");}
+
+h2{height:50%;width:90%;color:#FFFFF0;font-size:180%;text-align:center;}
+
+footer{height:3.5%;background-color:#d6ebad;}
+
+@media only screen and (min-width:768px) {
+  aside{flex-direction:row;flex-wrap:wrap;}
+  aside a{height:43%;width:40%;max-width:500px;margin:15px 20px;}
+  h1{font-size:70px;}
+  h2{font-size:50px;}
+    
+}
+  
+  /*
+ min-width:768px is the upper end width for tablets,
+ 445 is the lower end for cell phones
+ 
+ jsanywhere, html+css+js, buffer edit - ipad coding apps
+ 
+*/

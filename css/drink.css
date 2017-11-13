@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Playball');
+
+html,body{width:100%;height:100%;margin:0;padding:0;}
+
+*{box-sizing:border-box;margin:0;padding:0;}
+
+header{height:15%;background-image:url("../img/flowers2.jpg");
+display:flex;justify-content:center;align-items:center;}
+h1{height:10%;color:#808000;font-family:'Playball',Georgia,cursive;}
+nav{height:5%;background-color:#d6ebad;}
+section{height:65%;border:solid red;display:flex;margin:auto;}
+
+#nav{height:100%;width:15%;background-color:#d6ebad;
+display:flex;flex-direction:column;align-items:center;justify-content:space-around;
+    position:relative;top:-17%;
+}
+
+#nav a{;text-decoration:none;color:#b03636;border:solid red;}
+#nav a:hover{color:#ffa500;}
+
+article{width:70%;border:dotted #cbb91a 2px;margin:auto;margin-top:5px;
+margin-bottom:5px;display:flex;flex-wrap:wrap;justify-content:space-between;}
+
+div{}
+#imgsoup{width:auto;max-width:500px;height:300px;}
+#ingr{padding:5px 10px 5px 20px;position:relative;left:-20px;}
+#prep{padding:5px 10px 5px 20px;margin:10px;}
+img{width:100%;height:100%;margin:10px;}
+h2{text-align:center;margin:30px;color:#b03636;font-family:cursive;}
+h3{text-align:left;padding:10px;}
+h3,ul,ol{font-family:cursive;}
+ul{}
+ol{}
+
+
+footer{height:5%;background-color:#d6ebad;}
+
+
+/*@media only screen and (min-width:1024px) {
+  
+    h1{font-size:80px;}
+    section{width:auto;}
+    img{width:300px}
+    #ingr{position:relative;left:-100px;}
+    
+}
+*/
