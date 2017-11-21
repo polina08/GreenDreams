@@ -4,14 +4,13 @@ html,body{height:100%;margin:0;}
 *{box-sizing:border-box;margin:0;padding:0;border:0;}
 header{height:15%;background-image:url("../img/flowers2.jpg");
 display:flex;justify-content:center;align-items:center;}
-h1{color:#999900;font-size:55px;font-family: 'Playball', cursive;}
-h3{color:#b03636;}
+h1{color:#666600 /*olive*/;font-size:55px;font-family: 'Playball', cursive;}
 
-nav{height:3.5%;background-color:#d6ebad;
+nav{height:3.5%;background-color:#d6ebad/*olive drab*/;
 display:flex;align-items:center;justify-content:space-around;}
 
-nav a{width:15%;text-decoration:none;color:#b03636;}
-nav a:hover{color:#ffa500;}
+nav a{width:15%;text-decoration:none;color:#b03636/*indian red*/;}
+nav a:hover{color:#ffa500/*orange*/;}
 
 section{height:78%;background-image:url("../img/wood.jpg");
 background-size:100% 100%;}
@@ -29,7 +28,7 @@ background-repeat:no-repeat;display:flex;align-items:center;justify-content:cent
 #img4dsrt{background-image:url("../img/dsrt.jpg");}
 #img4drink{background-image:url("../img/drink.jpg");}
 
-h2{height:50%;width:90%;color:#fffff0;font-size:180%;text-align:center;}
+h2{height:50%;width:90%;color:#FFFFF0;font-size:180%;text-align:center;}
 
 footer{height:3.5%;background-color:#d6ebad;}
 
